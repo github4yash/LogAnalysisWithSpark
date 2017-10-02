@@ -19,3 +19,4 @@ export PATH=$PATH:/usr/local/scala-2.11.8/bin:/usr/local/spark-2.2.0-bin-hadoop2
 #spark-submit --class "com.herakles.loganalysis.LogAnalyzerAppMain" --master spark://127.0.0.1:7077 target/LogAnalyzer-LogAnalysis-0.0.1-SNAPSHOT.jar --logs-directory /tmp/logs --output-html-file /tmp/log_stats.html --window-length 30 --slide-interval 5 --checkpoint-directory /tmp/log-analyzer-streaming
 spark-submit --class "com.herakles.loganalysis.LogAnalyzerAppMain" target/LogAnalyzer-LogAnalysis-0.0.1-SNAPSHOT.jar --logs-directory /tmp/logs --output-html-file /tmp/log_stats.html --window-length 30 --slide-interval 5 --checkpoint-directory /tmp/log-analyzer-streaming
 ```
+You can then go to https://localhost:4040 to see the results.
