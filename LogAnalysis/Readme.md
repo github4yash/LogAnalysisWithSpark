@@ -1,4 +1,4 @@
-# LogAnalysis using Spark
+# Log Analysis using Spark
 
 Using DataBricks examples.
 
@@ -12,7 +12,7 @@ Install java 8, scala and then spark and make sure to update your PATH variable.
 I have these in my ~/.bashrc:
 export PATH=$PATH:/usr/local/scala-2.11.8/bin:/usr/local/spark-2.2.0-bin-hadoop2.7/bin
 
-## Here is a script to launc your log analyzer (run.sh)
+## Here is a script to launch your log analyzer (run.sh)
 ``` bash
 #!/bin/sh
 #--master spark://master:7077 target/uber-log-analyzer-2.0.jar
